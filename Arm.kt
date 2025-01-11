@@ -7,8 +7,9 @@ object Arm {
         val wristPosition:Double,)
     {
 
-        Position1(0.1,0.2),
-        Position2(0.4,0.5)
+        IntakePosition(0.1,0.2),
+        ShootPosition(0.4,0.5),
+        HomePosition(0.3,0.7)
     }
 
 }
