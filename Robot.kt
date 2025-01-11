@@ -1,8 +1,11 @@
 import com.sun.tools.javac.Main
 
-class Robot {
+object Robot {
     val commandArray = mutableListOf<Command>()
     fun addCommands(){
+//        commandArray.add(DriveCommand())
+//        commandArray.add(HomeCommand())
+        commandArray.add(Drivearmlift())
 
     }
     fun run(){
